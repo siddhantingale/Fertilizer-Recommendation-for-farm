@@ -1,0 +1,152 @@
+[
+  {
+    "crop": "rice",
+    "nitrogenBase": 90,
+    "phosphorusBase": 45,
+    "potassiumBase": 40,
+    "optimalPH": 6.0,
+    "temperatureRange": [20, 30],
+    "humidityRange": [75, 85],
+    "yieldTarget": 5.5,
+    "soilTypeModifiers": {
+      "Clay": { "nitrogen": 1.0, "phosphorus": 0.9, "potassium": 1.1 },
+      "Loamy": { "nitrogen": 1.0, "phosphorus": 1.0, "potassium": 1.0 },
+      "Sandy": { "nitrogen": 1.2, "phosphorus": 1.1, "potassium": 0.9 }
+    }
+  },
+  {
+    "crop": "wheat",
+    "nitrogenBase": 120,
+    "phosphorusBase": 60,
+    "potassiumBase": 40,
+    "optimalPH": 6.5,
+    "temperatureRange": [15, 25],
+    "humidityRange": [60, 70],
+    "yieldTarget": 4.2,
+    "soilTypeModifiers": {
+      "Clay": { "nitrogen": 0.9, "phosphorus": 0.8, "potassium": 1.2 },
+      "Loamy": { "nitrogen": 1.0, "phosphorus": 1.0, "potassium": 1.0 },
+      "Sandy": { "nitrogen": 1.3, "phosphorus": 1.2, "potassium": 0.8 }
+    }
+  },
+  {
+    "crop": "corn",
+    "nitrogenBase": 140,
+    "phosphorusBase": 50,
+    "potassiumBase": 50,
+    "optimalPH": 6.8,
+    "temperatureRange": [22, 32],
+    "humidityRange": [65, 75],
+    "yieldTarget": 8.5,
+    "soilTypeModifiers": {
+      "Clay": { "nitrogen": 0.95, "phosphorus": 0.85, "potassium": 1.15 },
+      "Loamy": { "nitrogen": 1.0, "phosphorus": 1.0, "potassium": 1.0 },
+      "Sandy": { "nitrogen": 1.25, "phosphorus": 1.15, "potassium": 0.85 }
+    }
+  },
+  {
+    "crop": "soybean",
+    "nitrogenBase": 25,
+    "phosphorusBase": 80,
+    "potassiumBase": 70,
+    "optimalPH": 6.2,
+    "temperatureRange": [20, 30],
+    "humidityRange": [70, 80],
+    "yieldTarget": 3.2,
+    "soilTypeModifiers": {
+      "Clay": { "nitrogen": 1.1, "phosphorus": 0.9, "potassium": 1.2 },
+      "Loamy": { "nitrogen": 1.0, "phosphorus": 1.0, "potassium": 1.0 },
+      "Sandy": { "nitrogen": 1.3, "phosphorus": 1.1, "potassium": 0.9 }
+    }
+  },
+  {
+    "crop": "cotton",
+    "nitrogenBase": 110,
+    "phosphorusBase": 55,
+    "potassiumBase": 60,
+    "optimalPH": 6.0,
+    "temperatureRange": [25, 35],
+    "humidityRange": [55, 65],
+    "yieldTarget": 2.8,
+    "soilTypeModifiers": {
+      "Clay": { "nitrogen": 0.9, "phosphorus": 0.9, "potassium": 1.1 },
+      "Loamy": { "nitrogen": 1.0, "phosphorus": 1.0, "potassium": 1.0 },
+      "Sandy": { "nitrogen": 1.2, "phosphorus": 1.1, "potassium": 0.9 }
+    }
+  },
+  {
+    "crop": "tomato",
+    "nitrogenBase": 180,
+    "phosphorusBase": 90,
+    "potassiumBase": 200,
+    "optimalPH": 6.5,
+    "temperatureRange": [18, 28],
+    "humidityRange": [65, 75],
+    "yieldTarget": 70,
+    "soilTypeModifiers": {
+      "Clay": { "nitrogen": 0.95, "phosphorus": 0.85, "potassium": 1.1 },
+      "Loamy": { "nitrogen": 1.0, "phosphorus": 1.0, "potassium": 1.0 },
+      "Sandy": { "nitrogen": 1.15, "phosphorus": 1.1, "potassium": 0.95 }
+    }
+  },
+  {
+    "crop": "potato",
+    "nitrogenBase": 120,
+    "phosphorusBase": 80,
+    "potassiumBase": 160,
+    "optimalPH": 5.8,
+    "temperatureRange": [15, 22],
+    "humidityRange": [70, 80],
+    "yieldTarget": 25,
+    "soilTypeModifiers": {
+      "Clay": { "nitrogen": 0.9, "phosphorus": 0.85, "potassium": 1.15 },
+      "Loamy": { "nitrogen": 1.0, "phosphorus": 1.0, "potassium": 1.0 },
+      "Sandy": { "nitrogen": 1.2, "phosphorus": 1.15, "potassium": 0.9 }
+    }
+  },
+  {
+    "crop": "onion",
+    "nitrogenBase": 100,
+    "phosphorusBase": 50,
+    "potassiumBase": 80,
+    "optimalPH": 6.2,
+    "temperatureRange": [15, 25],
+    "humidityRange": [60, 70],
+    "yieldTarget": 35,
+    "soilTypeModifiers": {
+      "Clay": { "nitrogen": 0.95, "phosphorus": 0.9, "potassium": 1.1 },
+      "Loamy": { "nitrogen": 1.0, "phosphorus": 1.0, "potassium": 1.0 },
+      "Sandy": { "nitrogen": 1.15, "phosphorus": 1.1, "potassium": 0.95 }
+    }
+  },
+  {
+    "crop": "carrot",
+    "nitrogenBase": 80,
+    "phosphorusBase": 60,
+    "potassiumBase": 100,
+    "optimalPH": 6.5,
+    "temperatureRange": [16, 24],
+    "humidityRange": [65, 75],
+    "yieldTarget": 30,
+    "soilTypeModifiers": {
+      "Clay": { "nitrogen": 0.9, "phosphorus": 0.85, "potassium": 1.2 },
+      "Loamy": { "nitrogen": 1.0, "phosphorus": 1.0, "potassium": 1.0 },
+      "Sandy": { "nitrogen": 1.1, "phosphorus": 1.1, "potassium": 0.9 }
+    }
+  },
+  {
+    "crop": "cabbage",
+    "nitrogenBase": 150,
+    "phosphorusBase": 70,
+    "potassiumBase": 120,
+    "optimalPH": 6.0,
+    "temperatureRange": [15, 20],
+    "humidityRange": [70, 80],
+    "yieldTarget": 40,
+    "soilTypeModifiers": {
+      "Clay": { "nitrogen": 0.95, "phosphorus": 0.9, "potassium": 1.1 },
+      "Loamy": { "nitrogen": 1.0, "phosphorus": 1.0, "potassium": 1.0 },
+      "Sandy": { "nitrogen": 1.1, "phosphorus": 1.05, "potassium": 0.95 }
+    }
+  }
+]
